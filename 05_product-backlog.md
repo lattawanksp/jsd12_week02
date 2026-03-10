@@ -1,7 +1,7 @@
-As a customer, I want to see the main or best-selling ice cream so that I can decide quickly.
-As a customer, I want to make my own ice cream so that I can choose the flavor I like.
-As a customer, I want to see ice cream details so that I can know the ingredients and price.
-As a customer, I want to add ice cream to my cart so that I can order later.
-As a customer, I want to pay online so that I can pay easily.
-As a customer, I want to track my order so that I can see the delivery status.
-As a customer, I want the ice cream to stay high quality and not melt.
+- As a customer, I want to see the main or best-selling ice cream so that I can decide quickly.
+- As a customer, I want to make my own ice cream so that I can choose the flavor I like.
+- As a customer, I want to see ice cream details so that I can know the ingredients and price.
+- As a customer, I want to add ice cream to my cart so that I can order later.
+- As a customer, I want to pay online so that I can pay easily.
+- As a customer, I want to track my order so that I can see the delivery status.
+- As a customer, I want the ice cream to stay high quality and not melt.
