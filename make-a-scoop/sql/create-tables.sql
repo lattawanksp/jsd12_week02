@@ -1,3 +1,12 @@
+/* รื้อตารางทิ้งเวลาเพิ่ม values ใหม่  (ลบตาราง ถ้า มันมีอยู่) *ตารางลูกถูกลบก่อนตารางแม่ คีย์ FK ต้องถูกลบก่อนคีย์ PK
+DROP TABLE IF EXISTS Deliveries CASCADE;
+DROP TABLE IF EXISTS Payments CASCADE;
+DROP TABLE IF EXISTS CustomScoops CASCADE;
+DROP TABLE IF EXISTS Orders CASCADE;
+DROP TABLE IF EXISTS Products CASCADE;
+DROP TABLE IF EXISTS Customers CASCADE;
+*/
+
 -- 1. Customers Table
 CREATE TABLE Customers (
     customer_id SERIAL PRIMARY KEY,
@@ -13,6 +22,7 @@ CREATE TABLE Products (
     product_name VARCHAR(255) NOT NULL,
     flavor VARCHAR(100),
     description TEXT,
+    stock INT NOT NULL,
     price DECIMAL(10, 2) NOT NULL
 );
 
