@@ -55,6 +55,3 @@ CREATE TABLE OrderItems (
     item_id INTEGER NOT NULL REFERENCES MenuItems(item_id),
     quantity INTEGER NOT NULL
 );
-
-
-
